@@ -1,1 +1,152 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | IT Services Meyer</title>
+    <meta name="description" content="Impressum für digital-craftsman.com.">
+    <meta name="robots" content="noindex, follow">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header {
+            padding-top: 150px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px 100px;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+        .legal-content h2 {
+            font-family: 'Outfit', sans-serif;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .legal-content p {
+            margin-bottom: 1rem;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 2rem;
+        }
+        .info-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        .info-card strong {
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Outfit', sans-serif;
+            color: #111;
+        }
+        .info-card a {
+            color: var(--primary, #0056b3);
+            text-decoration: none;
+        }
+        .info-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                IT Services <span>Meyer.</span>
+            </a>
+            
+            <button class="mobile-toggle" aria-label="Menü öffnen" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Startseite</a></li>
+                    <li><a href="index.html#about" class="nav-link">Über uns</a></li>
+                    <li><a href="index.html#services" class="nav-link">Leistungen</a></li>
+                    <li><a href="index.html#contact" class="nav-link btn-primary-small">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="page-header">
+        <div class="container">
+            <h1 class="section-title">Impressum</h1>
+        </div>
+    </div>
+    <section class="legal-content">
+        <section>
+            <h2>Angaben gemäß § 5 TMG</h2>
+            <div class="contact-grid">
+                <div class="info-card">
+                    <strong>Unternehmen & Inhaber</strong>
+                    IT Services Meyer<br>
+                    Thomas Meyer<br>
+                    Inhaber / Webdesign & IT
+                </div>
+                <div class="info-card">
+                    <strong>Anschrift</strong>
+                    Glaubensberg 7<br>
+                    91807 Solnhofen
+                </div>
+                <div class="info-card">
+                    <strong>Erreichbarkeit</strong>
+                    Telefon: +49 17624032313<br>
+                    E-Mail: <a href="mailto:info@itservices-meyer.de">info@itservices-meye r.de</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Umsatzsteuer-ID</h2>
+            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+            <em>Wird nachgereicht</em></p>
+        </section>
+        <section>
+            <h2>Redaktionell verantwortlich</h2>
+            <p>Thomas Meyer<br>
+            Glaubensberg 7<br>
+            91807 Solnhofen</p>
+        </section>
+        <section>
+            <h2>Verbraucherstreitbeilegung</h2>
+            <p>Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind hierzu auch nicht verpflichtet.</p>
+        </section>
+        <section>
+            <h2>Haftung für Links</h2>
+            <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+        </section>
+    </section>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">IT Services <span>Meyer.</span></a>
+                <p>Spezialisiert auf zukunftssichere digitale Handwerkslösungen.</p>
+            </div>
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutzerklärung.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
